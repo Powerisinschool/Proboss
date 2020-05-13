@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Sign Up</title>
+    <style>
+        header {
+    background-color: #1abc9c;
+    height: 150px;
+    line-height: 150px;
+}
+
+    header a {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+    }
+
+        header a:hover {
+            color: #222;
+        }
+
+    .cool input {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #efefef;
+    color: #787575;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+        .submit {
+    background-color: #3fb6b2;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    outline: none;
+    margin: auto;
+    font-weight: bold;
+}
+        form {
+    text-align: center;
+    margin-top: auto;
+}
+
+            .submit:hover {
+                color: #222;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a id="header-title" href="index.html">My Blog</a>
+        </div>
+    </header>
+    <h1>Sign Up!!!</h1>
+    <p>Please fill in this form to create an account.</p>
+    <form>
+    <div class="cool"><input type="text" placeholder="First Name" name=""/>
+    <input type="text" placeholder="Last Name" name=""/>
+    <br />
+    <input type="text" placeholder="Username" name=""/>
+    <br />
+    <input type="email" placeholder="Email" name=""/>
+    <br />
+    <input type="password" placeholder="Password" name=""/>
+    <br />
+    <input type="password" placeholder="Confirm Password" name=""/>
+    </div>
+    <input id="send" type="submit" value="SEND" class="submit" name=""/>
+    </form>
+</body>
+</html>
